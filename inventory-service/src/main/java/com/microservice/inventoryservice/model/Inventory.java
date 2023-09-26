@@ -21,12 +21,12 @@ import lombok.Setter;
 @Setter
 public class Inventory {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
-	@Column(name = "sku_code")
-	private String skuCode;
+    @Column(name = "sku_code")
+    private String skuCode;
 
-	private int quantity;
+    private int quantity;
 }
