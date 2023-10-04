@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2023-09-27T15:24:54.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KIpqJmDkUhuRzM-a8cvd" version="21.8.2" type="github">
+  <diagram name="Trang-1" id="W0h6AXIakGsCIBbpfOVR">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="180BluMvxRS_kLkQIkO5-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Discovery-server&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-6" value="Microservice" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-7" value="Inventory-serrvice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-9" value="IP address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="260" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-14" value="Inventory-serrvice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-15" value="IP address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-16" value="Inventory-serrvice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-17" value="IP address" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Client&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.017;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="180BluMvxRS_kLkQIkO5-6" target="180BluMvxRS_kLkQIkO5-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="270" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Registry to discovery server&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="180BluMvxRS_kLkQIkO5-19">
+          <mxGeometry x="0.3386" relative="1" as="geometry">
+            <mxPoint x="36" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.826;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="180BluMvxRS_kLkQIkO5-1" target="180BluMvxRS_kLkQIkO5-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="420" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Store at local all the registry&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="180BluMvxRS_kLkQIkO5-22">
+          <mxGeometry x="0.0167" y="-2" relative="1" as="geometry">
+            <mxPoint x="-5" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="180BluMvxRS_kLkQIkO5-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;- When services regisrey on discovery-server. Whenerver regisrey sucessfully beside service store in Discovery-server, local store that services too. So when khi disconnect discovery-server, we still can stand from order-service to inventory-service because at this time order-service call the instance stored in local&lt;/font&gt;&lt;br&gt;&lt;br&gt;- When inventory-service have mutipli service, order-service will don&#39;t know where inventory-service to call. Solution here is add annotation @LoadBalanced when create Configuration at order-serive. This anotation to have find the inventort-service by the way go to through on by one and each service.It call Client Side LoadBalancing&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="770" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
