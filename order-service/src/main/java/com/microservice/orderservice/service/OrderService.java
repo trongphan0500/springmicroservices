@@ -36,7 +36,7 @@ public class OrderService {
 
         InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
                 .uri("http://inventory-service/api/inventory", uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
-                .retrieve()
+                .retrieve()// truy vấn vào response của api
                 .bodyToMono(InventoryResponse[].class)
                 .block();
 
@@ -45,7 +45,7 @@ public class OrderService {
         if(reuslt){
             orderRepository.save(order);
         }else{
-            System.out.println("Not in stock");
+            System.out.println("Not in stock 😘😘😘");
         }
 
 
